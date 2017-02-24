@@ -100,7 +100,7 @@ class GenericJMXConfValue
     }
     else if (obj instanceof Boolean)
     {
-      return (new Integer((obj)?1:0));
+      return (new Integer((obj) ? 1 : 0));
     }
     else if (obj instanceof Byte)
     {
